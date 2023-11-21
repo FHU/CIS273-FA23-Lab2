@@ -13,7 +13,7 @@ public class PrayerScheduler
         get;
     }
 
-    public List<Prayer> AnsweredPrayers { get;  }
+    public List<Prayer> AnsweredPrayers { get; } = new();
 
     public PrayerScheduler()
     {
